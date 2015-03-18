@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F27CA301AB936CF009EEBF1 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F27CA2F1AB936CF009EEBF1 /* ProgramViewController.swift */; };
 		3F44C4ED1AAEBA1A00D7F1F1 /* Entypo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F44C4EC1AAEBA1A00D7F1F1 /* Entypo.otf */; };
 		3F44C4FA1AAEBA3700D7F1F1 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F44C4EE1AAEBA3700D7F1F1 /* SourceSansPro-Black.ttf */; };
 		3F44C4FB1AAEBA3700D7F1F1 /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F44C4EF1AAEBA3700D7F1F1 /* SourceSansPro-BlackItalic.ttf */; };
@@ -66,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F27CA2F1AB936CF009EEBF1 /* ProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
 		3F44C4EC1AAEBA1A00D7F1F1 /* Entypo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.otf; sourceTree = "<group>"; };
 		3F44C4EE1AAEBA3700D7F1F1 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
 		3F44C4EF1AAEBA3700D7F1F1 /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
@@ -90,7 +92,7 @@
 		98696AFCB772891F46D5D8F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C51603251AAF97050044799D /* PaymentStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PaymentStoryboard.storyboard; path = Interfaces/PaymentStoryboard.storyboard; sourceTree = "<group>"; };
 		C516032C1AAFA62A0044799D /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
-		C54BAC0B1AAE7BD6003AC168 /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProjectTableViewCell.xib; path = Interfaces/ProjectTableViewCell.xib; sourceTree = "<group>"; };
+		C54BAC0B1AAE7BD6003AC168 /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProjectTableViewCell.xib; path = ../Interfaces/ProjectTableViewCell.xib; sourceTree = "<group>"; };
 		C54BAC0E1AAE7C25003AC168 /* ProjectsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ProjectsStoryboard.storyboard; path = Interfaces/ProjectsStoryboard.storyboard; sourceTree = "<group>"; };
 		C54BAC111AAE7C6D003AC168 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
 		C5B5E00F1AB632060082A65E /* DoctorDetailView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = DoctorDetailView.storyboard; path = Interfaces/DoctorDetailView.storyboard; sourceTree = "<group>"; };
@@ -102,7 +104,7 @@
 		C5C11DC71AB604720048E0D6 /* CircleTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleTitleView.swift; path = Views/CircleTitleView.swift; sourceTree = SOURCE_ROOT; };
 		C5C11DC91AB613090048E0D6 /* CircleTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CircleTitleView.xib; path = Interfaces/CircleTitleView.xib; sourceTree = "<group>"; };
 		C5C11DCB1AB619770048E0D6 /* FundingStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FundingStatusView.swift; path = Views/FundingStatusView.swift; sourceTree = SOURCE_ROOT; };
-		C5DD150D1AAE716F00F116A6 /* ProjectStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ProjectStoryboard.storyboard; path = Interfaces/ProjectStoryboard.storyboard; sourceTree = "<group>"; };
+		C5DD150D1AAE716F00F116A6 /* ProjectStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ProjectStoryboard.storyboard; path = ../Interfaces/ProjectStoryboard.storyboard; sourceTree = "<group>"; };
 		EB957D081AAA700F007037A6 /* samahope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samahope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB957D0C1AAA700F007037A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB957D0D1AAA700F007037A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -181,8 +183,9 @@
 			children = (
 				3F5AD5631AB6C5C600ED3689 /* DoctorDetailViewController.swift */,
 				3F5AD5641AB6C5C600ED3689 /* PaymentViewController.swift */,
-				3F5AD5651AB6C5C600ED3689 /* ProjectsViewController.swift */,
 				3F5AD5661AB6C5C600ED3689 /* ProjectViewController.swift */,
+				3F5AD5651AB6C5C600ED3689 /* ProjectsViewController.swift */,
+				3F27CA2F1AB936CF009EEBF1 /* ProgramViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -196,6 +199,8 @@
 				C5B5E0161AB646500082A65E /* FundingStatusCell.xib */,
 				C5B5E0191AB65E400082A65E /* MoreDoctorDetailCell.swift */,
 				C5B5E01A1AB65E400082A65E /* MoreDoctorDetailCell.xib */,
+				C5DD150D1AAE716F00F116A6 /* ProjectStoryboard.storyboard */,
+				C54BAC0B1AAE7BD6003AC168 /* ProjectTableViewCell.xib */,
 				3F5AD56B1AB6C5FF00ED3689 /* ProgramTableViewCell.swift */,
 				3F5AD56C1AB6C5FF00ED3689 /* ProgramTableViewCell.xib */,
 			);
@@ -217,8 +222,6 @@
 				C54BAC0E1AAE7C25003AC168 /* ProjectsStoryboard.storyboard */,
 				C5B5E00F1AB632060082A65E /* DoctorDetailView.storyboard */,
 				C5B5E0131AB63FF70082A65E /* DoctorDetailInfoCell.swift */,
-				C5DD150D1AAE716F00F116A6 /* ProjectStoryboard.storyboard */,
-				C54BAC0B1AAE7BD6003AC168 /* ProjectTableViewCell.xib */,
 				C51603251AAF97050044799D /* PaymentStoryboard.storyboard */,
 				3F9230ED1AB6BE550002DF49 /* ProgramStoryboard.storyboard */,
 			);
@@ -487,6 +490,7 @@
 				EB957D571AAA7712007037A6 /* Project.swift in Sources */,
 				C5C11DCC1AB619770048E0D6 /* FundingStatusView.swift in Sources */,
 				C54BAC121AAE7C6D003AC168 /* ProjectTableViewCell.swift in Sources */,
+				3F27CA301AB936CF009EEBF1 /* ProgramViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

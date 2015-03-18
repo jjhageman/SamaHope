@@ -18,7 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ParseClient.setupParse()
 
         let storyboard = UIStoryboard(name: "ProgramStoryboard", bundle: nil)
-//        let programViewController = storyboard.instantiateInitialViewController() as? ProgramViewController
         let programViewController = storyboard.instantiateViewControllerWithIdentifier("ProgramViewController") as ProgramViewController
         window?.rootViewController = programViewController
         
